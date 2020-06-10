@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="page-header">
+        <h2>Add Widget</h2>
+    </div>
+    <form class="form-horizontal">
+        <div class='row'>
+            <div class='col-sm-8'>
+
+                <div class="form-group">
+                    <div class='col-sm-3'>
+                        <label>Name</label>
+                    </div>
+                    <div class='col-sm-9'>
+                        <input type="text" class="form-control" ng-model="addCtrl.wdname">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class='col-sm-3'>
+                        <label>Number</label>
+                    </div>
+                    <div class='col-sm-9'>
+                        <input type="text" class="form-control" ng-model="addCtrl.wdnumber">
+                    </div>
+                </div>
+                <h4>Key / value Pair</h3>
+                    <table class='table table-striped table-bordered table-hover'>
+
+
+                        <tr>
+                            <td><input type="text" ng-model="addCtrl.wdkey1"></td>
+                            <td><input type="text" ng-model="addCtrl.wdvalue1"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" ng-model="addCtrl.wdkey2"></td>
+                            <td><input type="text" ng-model="addCtrl.wdvalue2"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" ng-model="addCtrl.wdkey3"></td>
+                            <td><input type="text" ng-model="addCtrl.wdvalue3"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" ng-model="addCtrl.wdkey4"></td>
+                            <td><input type="text" ng-model="addCtrl.wdvalue4"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" ng-model="addCtrl.wdkey5"></td>
+                            <td><input type="text" ng-model="addCtrl.wdvalue5"></td>
+                        </tr>
+                        <td colspan="2" class="actiondiv">
+                            <a class='btn btn-primary' ng-click='addCtrl.Add()'>Add</a>
+                            <a class='btn btn-danger' href="javascript:history.back()">Back</a>
+
+                        </td>
+                    </table>
+
+            </div>
+        </div>
+    </form>
+</div>
